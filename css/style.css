@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: "Bitter", serif;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding-left: 8px;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.login-form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 12px 25px 0 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-form input {
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 6px;
+}
+
+.loginInput {
+  margin: 30px 8px 30px 30px;
+}
+
+.loginBtn {
+  background-color: rgba(255, 255, 255, 0.34);
+}
+
+.loginBtn:hover {
+  transform: scale(1.1);
+}
+
+#greeting {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 48px;
+  padding: 5px 0 5px 10px;
+}
+
+#greeting span {
+  font-size: 38px;
+}
+
+#todo-form input {
+  width: 300px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#clock {
+  position: absolute;
+  font-size: 26px;
+  top: 10px;
+  right: 25px;
+}
+
+.date {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.todoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-form {
+  margin-bottom: 8px;
+}
+
+#todo-form input {
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.34);
+}
+
+#todo-list {
+  height: 300px;
+  overflow: auto;
+}
+
+.quoteBox {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+}
+
+#weather {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
